@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>gotf</string>
+	</array>
+	<key>name</key>
+	<string>GoSublime: Terraform</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.terraform</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.gotemplate</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.gotf</string>
+	<key>uuid</key>
+	<string>77535434-6d89-49ec-a7bf-b6ebb8a32915</string>
+</dict>
+</plist>

@@ -133,6 +133,18 @@
                     ".json.tmpl"
                 ],
                 "configuration": "./gotemplate.configuration.json"
+            },
+            {
+                "id": "gotf",
+                "aliases": [
+                    "Golang Terraform Template",
+                    "gotf"
+                ],
+                "extensions": [
+                    ".tf.tpl",
+                    ".tf.tmpl"
+                ],
+                "configuration": "./gotemplate.configuration.json"
             }
         ],
         "grammars": [
@@ -180,6 +192,11 @@
                 "language": "gojson",
                 "scopeName": "source.gojson",
                 "path": "./syntaxes/gojson.tmLanguage"
+            },
+            {
+                "language": "gotf",
+                "scopeName": "source.gotf",
+                "path": "./syntaxes/gotf.tmLanguage"
             }
         ]
     }
